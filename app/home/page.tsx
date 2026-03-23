@@ -12,12 +12,12 @@ export default function Home({ setCurrentTab }: { setCurrentTab?: (tab: string) 
                 <h1>Banner logo here</h1>
             </div>
 
-            <div className="w-1/2 text-center">
+            <div className="w-3/8 text-center">
                 <TypedHeading />
                 <p className="text-lg text-muted-foreground mt-4">
                   JavaBee Utilities is a powerful library designed to simplify and enhance the programming experience for FTC teams. 
-                  With a focus on ease of use, performance, and reliability, JavaBee Utilities provides a comprehensive suite of tools and features that help teams of all skill levels create competitive and innovative robots. 
-                  Whether you're a rookie looking to get started or a veteran seeking to optimize your code, JavaBee Utilities has something to offer.
+                  We are focused on providing tools for teams of all skill levels to create innovative robots. 
+                  Whether you're a rookie trying to learn, or a veteran seeking to optimize, JavaBee Utilities has something to offer.
                 </p>
             </div>
 
