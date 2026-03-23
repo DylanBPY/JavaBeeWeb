@@ -14,7 +14,11 @@ export default function Home({ setCurrentTab }: { setCurrentTab?: (tab: string) 
 
             <div className="w-1/2 text-center">
                 <TypedHeading />
-                <p className="text-lg text-muted-foreground mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="text-lg text-muted-foreground mt-4">
+                  JavaBee Utilities is a powerful library designed to simplify and enhance the programming experience for FTC teams. 
+                  With a focus on ease of use, performance, and reliability, JavaBee Utilities provides a comprehensive suite of tools and features that help teams of all skill levels create competitive and innovative robots. 
+                  Whether you're a rookie looking to get started or a veteran seeking to optimize your code, JavaBee Utilities has something to offer.
+                </p>
             </div>
 
             <div className="flex items-center gap-4 mt-8">
@@ -44,13 +48,13 @@ function TypedHeading() {
             .type("for rookies and veterans alike.")
             .pause(1500)
             .delete()
-            .type("more powerful.")
+            .type("made powerful.")
             .pause(1500)
             .delete()
             .type("that just works.")
             .pause(1500)
             .delete()
-            .type("repeatable.")
+            .type("that's repeatable.")
             .pause(1500)
             .delete()
             .type("built different.")
@@ -59,7 +63,7 @@ function TypedHeading() {
             .type("revolutionized.")
             .pause(1500)
             .delete()
-            .type("clean.")
+            .type("but clean.")
             .pause(1500)
             .delete()
             .type("optimized.")
@@ -68,7 +72,10 @@ function TypedHeading() {
             .type("integrated.")
             .pause(1500)
             .delete()
-            .type("made fun.")
+            .type("elevated.")
+            .pause(1500)
+            .delete()
+            .type("free and open-source.")
             .pause(1500)
             .delete()
         }
