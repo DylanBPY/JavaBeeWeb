@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function Home({ setCurrentTab }: { setCurrentTab?: (tab: string) => void }) {
     return (
         <div className="relative flex flex-col w-full items-center">
-            <div className="absolute top-0 left-0 right-0 h-[30vh] bg-linear-to-b from-primary/4 to-transparent pointer-events-none" />
+            <div className="absolute top-0 left-0 right-0 h-[40vh] bg-linear-to-b from-primary/8 dark:from-primary/4 to-transparent pointer-events-none" />
 
             {/* <img className="rounded-md mt-10 mb-6" width={570} height={240} src="/banner.png" alt="JavaBee Logo" /> */}
             <div className="rounded-md mb-6 mt-10 bg-black w-142.5 h-60 flex items-center justify-center">
@@ -21,7 +21,7 @@ export default function Home({ setCurrentTab }: { setCurrentTab?: (tab: string) 
                 </p>
             </div>
 
-            <div className="flex items-center gap-4 mt-8">
+            <div className="flex items-center gap-4 mt-6">
                 <Button size="lg" onClick={() => setCurrentTab?.('docs')}>Get Started with JavaBee</Button>
                 <Button variant="outline" size="lg" onClick={() => setCurrentTab?.('ftc-utils')}>General FTC Utilities</Button>
             </div>
