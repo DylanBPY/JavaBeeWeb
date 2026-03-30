@@ -7,11 +7,8 @@ export default function Home({ setCurrentTab }: { setCurrentTab?: (tab: string) 
         <div className="relative flex flex-col w-full items-center">
             <div className="absolute top-0 left-0 right-0 h-[40vh] bg-linear-to-b from-primary/8 dark:from-primary/4 to-transparent pointer-events-none" />
 
-            {/* <img className="rounded-md mt-10 mb-6" width={570} height={240} src="/banner.png" alt="JavaBee Logo" /> */}
-            <div className="rounded-md mb-6 mt-10 bg-black w-142.5 h-60 flex items-center justify-center">
-                <h1>Banner logo here</h1>
-            </div>
-
+            <img className="rounded-md mt-10 mb-6 block dark:hidden" width={970} height={640} src="./stacked_light.png" alt="JavaBee Logo" />
+            <img className="rounded-md mt-10 mb-6 hidden dark:block" width={970} height={640} src="./stacked_dark.png" alt="JavaBee Logo" />
             <div className="w-3/8 text-center">
                 <TypedHeading />
                 <p className="text-lg text-muted-foreground mt-4">
