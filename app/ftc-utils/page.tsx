@@ -1,6 +1,6 @@
 import { Construction } from 'lucide-react';
 
-export default async function FTCUtilities() {
+export default function FTCUtilities() {
     return (
         <div className="flex flex-col flex-1 p-6 h-full">
             <div className="flex flex-col items-center justify-center gap-2">
